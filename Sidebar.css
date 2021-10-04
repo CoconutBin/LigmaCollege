@@ -1,88 +1,91 @@
+body {
+  font-family: "Lato", sans-serif;
+}
 
-     body {
-        font-family: "Lato", sans-serif;
-      }
-      
-      .sidenav {
-        height: 1927px;
-        width: 250px;
-        position: absolute;
-        z-index: 1;
-        top: 269px;
-        left: 0;
-        background-color: #eee;
-        overflow-x: hidden;
-        padding-top: 20px;
-      }
-      
-      .sidenavabout {
-        height: 3222px;
-        width: 250px;
-        position: absolute;
-        z-index: 1;
-        top: 55px;
-        left: 0;
-        background-color: #eee;
-        overflow-x: hidden;
-        padding-top: 20px;
-      }
-      
-      .sidenav a {
-        padding: 10px 8px 10px 16px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #7e5bdf;
-        display: block;
-      }
-      
-      .sidenav a:hover {
-        color: #4400ff;
-      }
+.sidenav {
+  height: 1927px;
+  width: 250px;
+  position: absolute;
+  z-index: 1;
+  top: 269px;
+  left: 0;
+  background-color: #eee;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
-      .sidenavabout a {
-        padding: 10px 8px 10px 16px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #7e5bdf;
-        display: block;
-      }
-      
-      .sidenavabout a:hover {
-        color: #4400ff;
-      }
+.sidenavabout {
+  height: 3222px;
+  width: 250px;
+  position: absolute;
+  z-index: 1;
+  top: 55px;
+  left: 0;
+  background-color: #eee;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
+.sidenav a {
+  padding: 10px 8px 10px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #7e5bdf;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #4400ff;
+}
+
+.sidenavabout a {
+  padding: 10px 8px 10px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #7e5bdf;
+  display: block;
+}
+
+.sidenavabout a:hover {
+  color: #4400ff;
+}
 
 
-      
-      .main {
-        margin-left: 250px; /* Same as the width of the sidenav */
-        font-size: 28px; /* Increased text to enable scrolling */
-        padding: 0px 10px;
-      }
-      
-      @media screen and (max-height: 600px) {
-        .sidenav {padding-top: 15px;}
-        .sidenavabout {padding-top: 15px;}
-        .sidenav a {font-size: 18px;}
-      }
+
+
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 600px) {
+  .sidenav {padding-top: 15px;}
+  .sidenavabout {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 
 .sidebar-biackground{
-    background-color:#eee;
+background-color:#eee;
 }
 .sidebar-purple{
-    color:#7e5bdf;
-    text-shadow: white 0px 0px 2px ;
+color:#7e5bdf;
+text-shadow: white 0px 0px 2px ;
 }
 
 h1.pad {
-  padding-left: 50px;
+padding-left: 20px;
+}
+
+h2.pad {
+padding-left: 40px;
 }
 
 h3.pad {
-  padding-left: 50px;
+padding-left: 40px;
 }
 
 h4.pad {
-  padding-left: 50px;
+padding-left: 40px;
 }
