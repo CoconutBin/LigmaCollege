@@ -75,6 +75,14 @@
     text-shadow: white 0px 0px 2px ;
 }
 
-p.ex1 {
+h1.pad {
+  padding-left: 50px;
+}
+
+h3.pad {
+  padding-left: 50px;
+}
+
+h4.pad {
   padding-left: 50px;
 }
